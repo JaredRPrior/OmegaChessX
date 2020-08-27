@@ -13,7 +13,6 @@
 		490CBA8624F782ED006D0A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490CBA8424F782ED006D0A52 /* Main.storyboard */; };
 		490CBA8824F782EF006D0A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490CBA8724F782EF006D0A52 /* Assets.xcassets */; };
 		490CBA8B24F782EF006D0A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490CBA8924F782EF006D0A52 /* LaunchScreen.storyboard */; };
-		490CBA9324F7B74C006D0A52 /* gifntext-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 490CBA9224F7B74C006D0A52 /* gifntext-gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		490CBA8724F782EF006D0A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490CBA8A24F782EF006D0A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490CBA8C24F782EF006D0A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490CBA9224F7B74C006D0A52 /* gifntext-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "gifntext-gif.gif"; path = "../../../Downloads/gifntext-gif.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				490CBA8424F782ED006D0A52 /* Main.storyboard */,
 				490CBA8724F782EF006D0A52 /* Assets.xcassets */,
 				490CBA8924F782EF006D0A52 /* LaunchScreen.storyboard */,
-				490CBA9224F7B74C006D0A52 /* gifntext-gif.gif */,
 				490CBA8C24F782EF006D0A52 /* Info.plist */,
 			);
 			path = omegaGambit;
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490CBA9324F7B74C006D0A52 /* gifntext-gif.gif in Resources */,
 				490CBA8B24F782EF006D0A52 /* LaunchScreen.storyboard in Resources */,
 				490CBA8824F782EF006D0A52 /* Assets.xcassets in Resources */,
 				490CBA8624F782ED006D0A52 /* Main.storyboard in Resources */,
