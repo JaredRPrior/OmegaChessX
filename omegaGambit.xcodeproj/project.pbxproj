@@ -17,7 +17,43 @@
 		49E59EC324F83A3C0009E755 /* Ξ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EC224F83A3C0009E755 /* Ξ.jpg */; };
 		49E59EC524F83C7F0009E755 /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EC424F83C7F0009E755 /* 24.png */; };
 		49E59EC724F83CF20009E755 /* 25'.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EC624F83CF20009E755 /* 25'.png */; };
+		49E59ECA24F8494E0009E755 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E59EC824F8494E0009E755 /* MenuViewController.swift */; };
+		49E59ECB24F8494E0009E755 /* SwiftChess in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EC924F8494E0009E755 /* SwiftChess */; };
+		49E59F0024F84CBC0009E755 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EFA24F84CBC0009E755 /* LaunchScreen.xib */; };
+		49E59F0124F84CBC0009E755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EFC24F84CBC0009E755 /* Images.xcassets */; };
+		49E59F0324F84CBC0009E755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E59EFE24F84CBC0009E755 /* Main.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49E59ED124F84A420009E755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E59ECC24F84A420009E755 /* SwiftChess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67A9C9DE1DE64CD200510FB8;
+			remoteInfo = SwiftChess;
+		};
+		49E59ED324F84A420009E755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E59ECC24F84A420009E755 /* SwiftChess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67A9C9E71DE64CD300510FB8;
+			remoteInfo = SwiftChessTests;
+		};
+		49E59EEC24F84B3D0009E755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E59EE724F84B3D0009E755 /* SwiftChess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67A9C9DE1DE64CD200510FB8;
+			remoteInfo = SwiftChess;
+		};
+		49E59EEE24F84B3D0009E755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E59EE724F84B3D0009E755 /* SwiftChess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67A9C9E71DE64CD300510FB8;
+			remoteInfo = SwiftChessTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		490CBA7B24F782ED006D0A52 /* omegaGambit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omegaGambit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +68,13 @@
 		49E59EC224F83A3C0009E755 /* Ξ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ξ.jpg"; path = "../../../../Desktop/Ξ.jpg"; sourceTree = "<group>"; };
 		49E59EC424F83C7F0009E755 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 24.png; path = ../../../../Desktop/24.png; sourceTree = "<group>"; };
 		49E59EC624F83CF20009E755 /* 25'.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "25'.png"; path = "../../../../Desktop/25'.png"; sourceTree = "<group>"; };
+		49E59EC824F8494E0009E755 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../../SwiftChess/Example/SwiftChess/MenuViewController.swift; sourceTree = "<group>"; };
+		49E59EC924F8494E0009E755 /* SwiftChess */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftChess; path = ../../SwiftChess/Example/SwiftChess; sourceTree = "<group>"; };
+		49E59ECC24F84A420009E755 /* SwiftChess.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftChess.xcodeproj; path = ../SwiftChess/SwiftChess/SwiftChess.xcodeproj; sourceTree = "<group>"; };
+		49E59EE724F84B3D0009E755 /* SwiftChess.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftChess.xcodeproj; path = ../../../../Desktop/SwiftChess.xcodeproj; sourceTree = "<group>"; };
+		49E59EFB24F84CBC0009E755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ../../SwiftChess/Example/SwiftChess/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49E59EFC24F84CBC0009E755 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../SwiftChess/Example/SwiftChess/Images.xcassets; sourceTree = "<group>"; };
+		49E59EFF24F84CBC0009E755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../SwiftChess/Example/SwiftChess/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +91,8 @@
 		490CBA7224F782ED006D0A52 = {
 			isa = PBXGroup;
 			children = (
+				49E59ECC24F84A420009E755 /* SwiftChess.xcodeproj */,
+				49E59EE724F84B3D0009E755 /* SwiftChess.xcodeproj */,
 				490CBA7D24F782ED006D0A52 /* omegaGambit */,
 				490CBA7C24F782ED006D0A52 /* Products */,
 				49E59EC024F83A0E0009E755 /* Ξ.png */,
@@ -69,6 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				490CBA7E24F782ED006D0A52 /* AppDelegate.swift */,
+				49E59EC824F8494E0009E755 /* MenuViewController.swift */,
+				49E59EFE24F84CBC0009E755 /* Main.storyboard */,
+				49E59EC924F8494E0009E755 /* SwiftChess */,
+				49E59EFC24F84CBC0009E755 /* Images.xcassets */,
+				49E59EFA24F84CBC0009E755 /* LaunchScreen.xib */,
 				490CBA8024F782ED006D0A52 /* SceneDelegate.swift */,
 				490CBA8224F782ED006D0A52 /* ViewController.swift */,
 				490CBA8424F782ED006D0A52 /* Main.storyboard */,
@@ -77,6 +127,24 @@
 				490CBA8C24F782EF006D0A52 /* Info.plist */,
 			);
 			path = omegaGambit;
+			sourceTree = "<group>";
+		};
+		49E59ECD24F84A420009E755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E59ED224F84A420009E755 /* SwiftChess.framework */,
+				49E59ED424F84A420009E755 /* SwiftChessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E59EE824F84B3D0009E755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E59EED24F84B3D0009E755 /* SwiftChess.framework */,
+				49E59EEF24F84B3D0009E755 /* SwiftChessTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +193,16 @@
 			mainGroup = 490CBA7224F782ED006D0A52;
 			productRefGroup = 490CBA7C24F782ED006D0A52 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49E59EE824F84B3D0009E755 /* Products */;
+					ProjectRef = 49E59EE724F84B3D0009E755 /* SwiftChess.xcodeproj */;
+				},
+				{
+					ProductGroup = 49E59ECD24F84A420009E755 /* Products */;
+					ProjectRef = 49E59ECC24F84A420009E755 /* SwiftChess.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				490CBA7A24F782ED006D0A52 /* omegaGambit */,
@@ -132,17 +210,52 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		49E59ED224F84A420009E755 /* SwiftChess.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftChess.framework;
+			remoteRef = 49E59ED124F84A420009E755 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49E59ED424F84A420009E755 /* SwiftChessTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftChessTests.xctest;
+			remoteRef = 49E59ED324F84A420009E755 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49E59EED24F84B3D0009E755 /* SwiftChess.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftChess.framework;
+			remoteRef = 49E59EEC24F84B3D0009E755 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		49E59EEF24F84B3D0009E755 /* SwiftChessTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftChessTests.xctest;
+			remoteRef = 49E59EEE24F84B3D0009E755 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		490CBA7924F782ED006D0A52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				490CBA8B24F782EF006D0A52 /* LaunchScreen.storyboard in Resources */,
+				49E59F0124F84CBC0009E755 /* Images.xcassets in Resources */,
 				49E59EC724F83CF20009E755 /* 25'.png in Resources */,
+				49E59F0324F84CBC0009E755 /* Main.storyboard in Resources */,
 				490CBA8824F782EF006D0A52 /* Assets.xcassets in Resources */,
 				49E59EC324F83A3C0009E755 /* Ξ.jpg in Resources */,
 				49E59EC124F83A0E0009E755 /* Ξ.png in Resources */,
+				49E59ECB24F8494E0009E755 /* SwiftChess in Resources */,
 				490CBA8624F782ED006D0A52 /* Main.storyboard in Resources */,
+				49E59F0024F84CBC0009E755 /* LaunchScreen.xib in Resources */,
 				49E59EC524F83C7F0009E755 /* 24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +270,7 @@
 				490CBA8324F782ED006D0A52 /* ViewController.swift in Sources */,
 				490CBA7F24F782ED006D0A52 /* AppDelegate.swift in Sources */,
 				490CBA8124F782ED006D0A52 /* SceneDelegate.swift in Sources */,
+				49E59ECA24F8494E0009E755 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +291,22 @@
 				490CBA8A24F782EF006D0A52 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		49E59EFA24F84CBC0009E755 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E59EFB24F84CBC0009E755 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		49E59EFE24F84CBC0009E755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E59EFF24F84CBC0009E755 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
