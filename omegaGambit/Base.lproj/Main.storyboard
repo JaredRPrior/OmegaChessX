@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,28 +12,28 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="omegaGambit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView contentMode="center" axis="vertical" distribution="equalSpacing" alignment="center" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="AxR-TG-KhG">
-                                <rect key="frame" x="20" y="25" width="374" height="636"/>
+                            <stackView contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="AxR-TG-KhG">
+                                <rect key="frame" x="31" y="59" width="313" height="669"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2qR-Cg-bRn">
-                                        <rect key="frame" x="65.333333333333329" y="0.0" width="243.66666666666669" height="380.66666666666669"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2qR-Cg-bRn">
+                                        <rect key="frame" x="30.000000000000014" y="0.0" width="253.33333333333337" height="397.33333333333331"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffs-6l-wVb">
-                                                <rect key="frame" x="0.0" y="0.0" width="243.66666666666666" height="380.66666666666669"/>
+                                            <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CDf-fv-GK3">
+                                                <rect key="frame" x="0.0" y="0.0" width="253.33333333333334" height="397.33333333333331"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Ξ">
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="335" name="TimesNewRomanPSMT"/>
+                                                            <font key="NSFont" size="350" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                 <tabStops/>
                                                             </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.13333" green="0.13333" blue="0.13333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -42,11 +42,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView contentMode="scaleAspectFit" semanticContentAttribute="spatial" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="e46-VG-dz6">
-                                        <rect key="frame" x="0.0" y="435.66666666666669" width="374" height="200.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="447.33333333333331" width="313" height="221.66666666666669"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-vs-mij">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="53.333333333333336"/>
-                                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-vs-mij">
+                                                <rect key="frame" x="0.0" y="0.0" width="313" height="60.666666666666664"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="Sign-in">
@@ -60,11 +60,11 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" pointerInteraction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0e-Kv-6Vs">
-                                                <rect key="frame" x="0.0" y="73.333333333333314" width="374" height="53.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="80.666666666666686" width="313" height="60.333333333333343"/>
                                                 <color key="backgroundColor" red="0.83921568629999999" green="0.16861490445520291" blue="0.67972547729333865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </button>
                                             <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2020-08-27 at 3.57.39 AM" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7NI-Hg-0uP">
-                                                <rect key="frame" x="0.0" y="146.99999999999994" width="374" height="53.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="161.00000000000006" width="313" height="60.666666666666657"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -76,11 +76,11 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="AxR-TG-KhG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Oy-RX-day"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="AxR-TG-KhG" secondAttribute="bottom" constant="75" id="5pN-dy-p0h"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="AxR-TG-KhG" secondAttribute="trailing" id="NvK-Ih-PXE"/>
-                            <constraint firstItem="AxR-TG-KhG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="evQ-lD-UFh"/>
-                            <constraint firstItem="AxR-TG-KhG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="uef-EF-2lt"/>
+                            <constraint firstItem="AxR-TG-KhG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="9b2-Vl-EZc"/>
+                            <constraint firstItem="AxR-TG-KhG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="E4S-Re-hhP"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="AxR-TG-KhG" secondAttribute="bottom" constant="50" id="X2L-jK-o0A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AxR-TG-KhG" secondAttribute="trailing" constant="15" id="ioI-FR-qw6"/>
+                            <constraint firstItem="AxR-TG-KhG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sxe-vP-FB7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
